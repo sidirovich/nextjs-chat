@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
     "allowJs": true,
     "alwaysStrict": true,
     "esModuleInterop": true,
@@ -7,7 +9,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "lib": ["dom", "es2017"],
-    "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
@@ -16,7 +17,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "esnext"
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]
